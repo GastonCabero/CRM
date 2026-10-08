@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Profel CRM | Demo de portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/modules.css">
+  <link rel="stylesheet" href="assets/planning-reports.css">
+</head>
+<body>
+  <div class="page-shell"><div class="dashboard-frame">
+    <aside class="icon-rail" aria-label="Accesos del CRM">
+      <a class="rail-logo" href="#dashboard" aria-label="Ir al dashboard"><span>♙</span></a>
+      <div class="rail-shortcuts">
+        <a class="rail-icon" href="#dashboard" data-rail="dashboard"><b>D</b><small>DASH</small></a>
+        <a class="rail-icon rail-mail" href="#emails" data-rail="emails"><b>@</b><small>MAIL</small></a>
+        <span class="rail-icon is-static"><b>ME</b><small>META</small></span><span class="rail-icon is-static"><b>FD</b><small>FUNDS</small></span><span class="rail-icon is-static"><b>PR</b><small>PROC</small></span><span class="rail-icon is-static"><b>SV</b><small>SERV</small></span><span class="rail-icon is-static"><b>IN</b><small>STOCK</small></span>
+        <a class="rail-icon" href="#planning" data-rail="planning"><b>PL</b><small>PLAN</small></a><a class="rail-icon" href="#reports" data-rail="reports"><b>RP</b><small>REPORT</small></a><span class="rail-icon is-static"><b>US</b><small>USERS</small></span>
+      </div><span class="rail-vanna">V<small>AI</small></span><div class="rail-bottom"><span class="rail-avatar">G</span><span class="rail-exit">×<small>SALIR</small></span></div>
+    </aside>
+    <aside class="menu-panel"><div class="menu-top"><div><p class="menu-overline">Dashboard CRM</p><h1>Hola Gaston Cabero</h1></div><button class="collapse-toggle" type="button" aria-label="Menú contraído">‹</button></div><nav class="section-nav" id="navigation" aria-label="Secciones del CRM"></nav><div class="profile-card"><span class="profile-avatar">G</span><div><strong>Gaston Cabero</strong><p>gaston.cabero</p></div></div><p class="demo-note">DEMO DE PORTAFOLIO<br><span>Datos ficticios · Sin conexión</span></p></aside>
+    <main class="main-panel"><header class="topbar"><div><p class="menu-overline">Panel principal</p><h2 id="title">Dashboard</h2></div><div class="topbar-actions"><button id="reset" class="soft-button">Restablecer demo</button><label class="search-box"><span>⌕</span><input type="search" placeholder="Buscar en este módulo" aria-label="Buscar en este módulo"></label></div></header><div class="portfolio-notice">Demo visual independiente del CRM. Toda la información, contactos y correos son ficticios.</div><section id="content" aria-live="polite"></section><footer>Profel CRM · Caso de estudio de portafolio · 2026</footer></main>
+  </div></div>
+  <dialog id="detail"><div class="dialog-head"><h2 id="detail-title"></h2><button id="close" aria-label="Cerrar detalle">×</button></div><div id="detail-body"></div></dialog>
+  <script src="data/demo-data.js"></script><script src="assets/planning-reports.js"></script><script src="assets/app.js"></script>
+</body></html>
